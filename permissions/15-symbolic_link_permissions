@@ -1,0 +1,2 @@
+#!/binb/bash
+chown -h vincent:holberton _hello
