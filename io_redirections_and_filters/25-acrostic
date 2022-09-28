@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d' ' -f1 file
+printf '%s\n' "$(cut -c1 |tr -d [:space:])"
